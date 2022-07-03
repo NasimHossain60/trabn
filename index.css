@@ -5,13 +5,27 @@
 .navbar li{
     float: left;
     list-style: none;
-    margin: 10px 15px;
+    margin: 12px 15px;
 }
 .navbar ul{
     overflow: auto;
 }
-.navbar ul li a{
+.navbar li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+.navbar li a:hover{
+    color: aqua;
+}
+.navbar input{
+    float: right;
+    margin: 12px;
+    margin-right: 20px;
+    border-radius: 11px;
+    width: 220px;
+}
+.search{
+    margin-right: 40px;
+    padding: 0px 20px;
 }
