@@ -1,8 +1,17 @@
-#top{
-    text-align: center;
+.navbar{
     background-color: red;
-    border: 1px solid yellow;
-    margin: 5px;
-    padding: 10px;
-    font-size: x-large;
+    border-radius: 20px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 10px 15px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
