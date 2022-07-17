@@ -1,0 +1,71 @@
+section {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    padding: 40px;
+    width: 30%;
+    height: 350px;
+    background-color: rgba(128, 128, 128, 0.116);
+    box-shadow: 5px 5px 10px gray;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 0;
+}
+
+#input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+#input-field input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.5em;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+}
+
+#input-field input[type=submit] {
+    background-color: rgb(69, 38, 206);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+
+}
+
+#input-field input[type=submit]:hover {
+    background-color: rgba(65, 32, 214, 0.904);
+}
+
+#space-between {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#space-between a {
+    text-decoration: none;
+}
+
+#space-between input[type=checkbox] {
+    cursor: pointer;
+}
+
+.create-account a {
+    margin-top: 30px;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.create-account:hover {
+    text-decoration: underline;
+}
